@@ -21,7 +21,7 @@ function App() {
         fetchData()
             .then(() => console.log("Data fetched successfully"))
             .catch((e: Error) => console.log("There was the error: " + e));
-    }, []);
+    }, [res.length]);
 
 
   return (
